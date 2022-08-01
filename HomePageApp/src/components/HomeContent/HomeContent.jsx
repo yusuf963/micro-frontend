@@ -4,7 +4,7 @@ const MovieCard = React.lazy(() => import("components/MovieCard"));
 import "./HomeContent.scss";
 
 const dummyItem = [{ name: "Dummy Movie" }];
-
+console.log('dummyItem', dummyItem);
 const HomeContent = (props) => {
   const [movies, setMovies] = useState(dummyItem);
 

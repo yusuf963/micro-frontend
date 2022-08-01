@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+// for model federation
 const { ModuleFederationPlugin } = require("webpack").container;
 
 module.exports = {

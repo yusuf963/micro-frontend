@@ -6,7 +6,7 @@ import {
   BuyButton,
   SimpleButton,
   GlitchButton,
-} from "./components/Button/index.js";
+} from "./components/Button/index.js"; // you can remove index.js from the path as by default it will look for index.js
 import Typography from "./components/Typography/Typography.jsx";
 import DropDown from "./components/DropDown/DropDown.jsx";
 
